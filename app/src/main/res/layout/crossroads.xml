@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/descrp"
+            android:text="CrossRoads is a time bound autonomous bot based arena challenge wherein participants are required to complete a given maze in given time. The event will take place in a team of three."
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Date: 6th March 2016"
+            android:textSize="20dp"
+            android:id="@+id/date"
+            android:paddingTop="20dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Time: 9:00 AM – 6:00 PM"
+            android:textSize="20dp"
+            android:id="@+id/time"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="35dp"
+            android:paddingTop="20dp"
+            android:text="Specifications"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:text="1. All teams have to confirm their registration outside the Central Library, PEC before participating."
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="2. All teams should reach 20 minutes before their event starts to avoid any delay in events."
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="3. The events are open only for first and second year engineering students (Beginner level only)."
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="4. For Fast N Furious, your bots must be ready and no assembling shall take place on the spot."
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="5. The prize distribution will be held on Sunday, 6th March 2016 at 6:30 PM in L-10."
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
