@@ -8,6 +8,7 @@
     android:weightSum="1">
     <TextView
         android:layout_width="wrap_content"
+        android:id="@+id/description"
         android:text="Fast and Furious is an autonomous bot based racing competition wherein line followers will be competing against each other in an arena. The event will take place in a team of three."
         android:textSize="20dp"
         android:textColor="#000000"
@@ -16,6 +17,7 @@
         android:layout_width="wrap_content"
         android:text="Date: 5th March 2016"
         android:textSize="20dp"
+        android:id="@+id/date_event"
         android:paddingTop="20dp"
         android:textColor="#000000"
         android:layout_height="wrap_content" />
@@ -24,6 +26,7 @@
         android:layout_width="wrap_content"
         android:text="Time: 9:00 AM – 6:00 PM"
         android:textSize="20dp"
+        android:id="@+id/time_event"
         android:textColor="#000000"
         android:layout_height="wrap_content" />
 
